@@ -16,6 +16,7 @@ def test_dimensions(x, y):
     """
     print("\nRunning test_coordinates with {}x{}".format(x, y))
 
+
 @pytest.mark.parametrize("mode", [1, 2, 3], ids=['foo', 'bar', 'baz'])
 def test_modes(mode):
     """

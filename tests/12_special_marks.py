@@ -29,7 +29,7 @@ def test_where_failure_is_accepted():
 
 @pytest.mark.xfail(strict=True)
 def test_where_failure_is_mandatory():
-    # Requires failed assertions! (returns "xfail" on failure; FAILs on pass!)
+    # Requires failed assertions! (returns "xfail" on failure; FAILED on pass!)
     assert True
 
 
