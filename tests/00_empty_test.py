@@ -14,4 +14,5 @@ def empty_test():
     My name doesn't start with "test", so I won't get run.
     (by default ;-)
     """
+    assert 1+1 == 2
     pass
